@@ -4,10 +4,9 @@
   "description": "A typescript with nodejs (and mongoDB) template for quick start on projects",
   "main": "server.js",
   "scripts": {
-    "start": "node ./dist/server.js",
-    "prestart": "tsc",
+    "start": "tsc && node ./dist/src/server.js",
     "build": "tsc",
-    "test": "mocha -r ts-node/register mocha-lcov-reporter > coverage/coverage.lcov  src/**/*.spec.ts --reporter nyan",
+    "test": "mocha -r ts-node/register mocha-lcov-reporter > coverage/coverage.lcov src/**/*.spec.ts --reporter nyan",
     "dev": "ts-node ./src/server.ts",
     "test-dev": "mocha -r ts-node/register src/**/*.spec.ts",
     "lint": "node_modules/.bin/goodparts src/**/*.ts"
@@ -43,9 +42,13 @@
     "cors": "2.8.5",
     "express": "4.16.4",
     "express-healthcheck": "0.1.0",
+    "geohash-poly": "0.6.0",
     "helmet": "3.15.0",
+    "install": "0.12.2",
     "mongoose": "5.4.3",
+    "mongoose-geojson-schemas": "0.10.3",
     "morgan": "1.9.1",
+    "npm": "6.9.0",
     "typescript": "3.2.4"
   }
 }

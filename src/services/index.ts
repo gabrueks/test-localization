@@ -1,1 +1,3 @@
-export { default as ResponseService } from './Response.service';
+export { default as createPdv } from './pdvServices/createPdv.service';
+export { default as getPdv } from './pdvServices/getPdv.service';
+export { default as closestPdv } from './pdvServices/getClosestPdv.service';
