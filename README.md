@@ -36,7 +36,7 @@ npm start
 <h2>First service</h2>
 Make a post on `http://localhost:8080/api/v1/create`
 <h4>Payload example</h4>
-```
+```json
 {
 	"tradingName": "test",
 	"ownerName": "gabriel",
