@@ -36,7 +36,7 @@ npm start
 <h2>First service</h2>
 Make a post on `http://localhost:8080/api/v1/create`
 <h4>Payload example</h4>
-``` 
+```
 {
 	"tradingName": "test",
 	"ownerName": "gabriel",
@@ -169,7 +169,7 @@ Make a post on `http://localhost:8080/api/v1/create`
             -23.013538
         ]
 	}
-} 
+}
 ```
 
 <h2>Second service</h2>
