@@ -40,7 +40,6 @@ const PDVSchema = new Schema({
 
 PDVSchema.index({
     address: '2dsphere',
-    coverageArea: '2dsphere'
 });
 
 export const PDVModel = model('pvds', PDVSchema, 'pdvs');

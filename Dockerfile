@@ -4,7 +4,7 @@ WORKDIR /usr/src/app/typescript-template
 
 COPY package.json ./
 
-RUN npm install
+RUN npm install --production
 
 COPY . .
 
