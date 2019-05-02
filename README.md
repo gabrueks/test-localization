@@ -36,7 +36,8 @@ npm start
 <h2>First service</h2>
 Make a post on `http://localhost:8080/api/v1/create`
 <h4>Payload example</h4>
-```javascript {
+``` 
+{
 	"tradingName": "test",
 	"ownerName": "gabriel",
 	"document": "45757063882",
@@ -168,7 +169,8 @@ Make a post on `http://localhost:8080/api/v1/create`
             -23.013538
         ]
 	}
-} ```
+} 
+```
 
 <h2>Second service</h2>
 Make a get on `http://localhost:8080/api/v1/get-pdv/40` (40 is a example, you can search for any).
