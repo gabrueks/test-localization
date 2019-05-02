@@ -5,7 +5,7 @@ Node.js + Typescript + MongoDB
 
 The **Typescript** helps in your .js projects to be more
 To start, you should clone the repository using the following command: <br>
-``` git clone https://github.com/gabrueks/typescript-template.git ```
+``` git clone https://github.com/gabrueks/test-localization ```
 <br>
 
 <h3>Now that we have the code on our machines</h3>
