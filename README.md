@@ -176,6 +176,14 @@ Make a post on `http://localhost:8080/api/v1/create`
 Make a get on `http://localhost:8080/api/v1/get-pdv/40` (40 is a example, you can search for any).
 
 <h2>Third service</h2>
-WIP
+Make a post request on `http://localhost:8080/api/v1/closest`
+
+Payload example
+<code>
+{
+	"lat": -44.36556,
+	"long": -23.99669
+}
+</code>
 
 <h3>If you have any tip, doubt or possible improvement, PR this repository (or create an issue) or send me an e-mail on gabriel03899@hotmail.com</h3>
