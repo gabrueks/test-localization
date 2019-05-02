@@ -1,7 +1,7 @@
 {
-  "name": "typescript-template",
+  "name": "test-location",
   "version": "1.0.0",
-  "description": "A typescript with nodejs (and mongoDB) template for quick start on projects",
+  "description": "Test location",
   "main": "server.js",
   "scripts": {
     "start": "tsc && node ./dist/src/server.js",
